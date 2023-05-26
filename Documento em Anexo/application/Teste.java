@@ -12,6 +12,10 @@ public class Teste {
 			Carro carro = new Carro("Gasolina", 39, "Fusca azul", 1959, "Gasolina");
 			Bicicleta bike = new Bicicleta("Metal", "Diamus", 2023);
 			
+			edificio.getPegadaDeCarbano();
+			carro.getPegadaDeCarbano();
+			bike.getPegadaDeCarbano();
+			
 			listLiberadores.add(edificio);
 			listLiberadores.add(carro);
 			listLiberadores.add(bike);
